@@ -1,7 +1,7 @@
 # terceiro trimestre 
 
 ##identificaçao
-jayslla primeiro b n:34 
+JAYSLLA - N34 1B
 
-##conteudo
-HTML,CSS e javaScrip
+ ##conteudo
+ HTML,CSS e javaScript
