@@ -13,3 +13,22 @@ function escreva(){
     document.write(tabuada + " x 10 =" + (tabuada*10)+ "<br>");
     
 }
+
+let lista = ["jesus", "spesato", "duarte","jorge", "lurdes", "jesus"];
+
+function mostralista(){
+    document.write("tamanho da lista: " + lista.length + "<br>");
+    
+    for(let i = 0; i < lista.length; i++){
+    document.write("Professor; " + lista[1] + "<br>");
+    }
+}
+
+function mutiplica(){
+    for(let i = 1; i <= 10; i++){
+        document.write("tabuada do  i = " + "<br>");
+        for(let j = 1; j <= 10; j++){
+            document.write(tabuada + " x "+j+" = " + (tabuada*1)+ "<br>");
+        }
+    }
+}
