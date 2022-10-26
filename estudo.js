@@ -44,9 +44,18 @@ function total(){
          v = r;
         
     }
-    
+let texto = "";
+let r = 0;
+for (let i = 1; i <= t; i++) {
+    r = v * (1 + (j / 100));
 
-    document.write("Resultado: " + r);
+    //document.write("mes" + i + "valor;" + moeda(r)"<br>" );
+    v = r;
+
+}
+document.getElementById("totalgeral").innerHTML= "total;"+moeda(r);
+document.getElementById("messes").value ;
+  //  document.write("Resultado: " + moeda (r));
     
 }
 function media(){
