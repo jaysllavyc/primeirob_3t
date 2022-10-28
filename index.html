@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>primeiro B</title>
    <script src="estudo.js"></script>
+   <link rel="stylesheet" href="estilo.css">
    
 </head>
 <body>
    <div class="calculadora">
+   <div id="sptotalgeral">
       <span id="totalgeral">total: 0,00</span><br>
-   valor: <input id="valor" type="text"><br>
-   juros(mensais): <input id="juros" type="text"><br>
-   Nr messes : <input id="messes" type="text"><br>
+   </div>
+   valor: <input id="valor" placeholder="Rs" type="text"><br>
+   J(mensais): <input id="juros" placeholder="% Mes " type="text"><br>
+   Nr messes : <input id="messes" placeholder="Tempo" type="text"><br>
    <button onclick="total()">Enviar</button>
 </div>
 <div>
@@ -21,15 +24,7 @@
 </div>
 
 
-<br><br><br><br>
-<span id="result">resultado 0,00</span><br>
-
-primeiro numero: <input id="n1" type="text"><br>
-segundo numero: <input id="n2" type="text"><br>
-terceiro numero: <input id="n3" type="text"><br>
-quarto numero: <input id="n4" type="text"><br>
-
-<button onclick="media()">calcular a media</button>
 
 </body>
 </html>
+
